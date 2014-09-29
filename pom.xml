@@ -4,7 +4,7 @@
 
   <groupId>com.pampanet</groupId>
   <artifactId>shiro-guice-resteasy-webapp-archetype</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>shiro-guice-resteasy-webapp-archetype</name>
@@ -107,7 +107,7 @@
 
   <description>Maven Archetype for building Secure RESTful Web Services Archetype with Apache Shiro 1.2.3, RestEasy 3 and Google Guice 3.0</description>
 
-  <url>http://github.com/pabiagioli/shiro-guice-resteasy-webapp</url>
+  <url>http://github.com/pabiagioli/shiro-guice-resteasy-webapp-archetype</url>
 
   <developers>
     <developer>
@@ -126,9 +126,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp.git</connection>
-    <developerConnection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp.git</developerConnection>
+    <connection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</developerConnection>
     <tag>shiro-guice-resteasy-webapp-archetype-0.0.1</tag>
-    <url>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp.git</url>
+    <url>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</url>
   </scm>
 </project>
