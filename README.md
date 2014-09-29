@@ -1,7 +1,7 @@
-shiro-guice-resteasy-webapp
-===========================
+shiro-guice-resteasy-webapp-archtype
+====================================
 
-RESTful Web Services using Apache Shiro 1.2.3, JBoss RestEasy 3 and Google Guice 3
+Maven Archetype for Building RESTful Web Services using Apache Shiro 1.2.3, JBoss RestEasy 3 and Google Guice 3
 
 Dependencies included
 ---------------------
@@ -20,27 +20,21 @@ Requirements
 - Maven 3
 - Application Server (Tomcat, JBoss/WildFly or Jetty)
 
-Building
---------
-- Make the war file <code>mvn clean package</code>
-- Deploy the war file in Tomcat 7 with Eclipse or manually
-
-After Deploy on Application Server
-----------------------------------
-- The REST WS are accessible under /*
-- Front-End not yet implemented.
-
-Run with Jetty
---------------
-- You can run the application with Jetty via Maven doing <code>mvn jetty:run</code>
-- The application gets deployed by default in <a href="http://localhost:8080">http://localhost:8080</a>
-
-Creating a Local Maven Archetype
---------------------------------
-- Generate an archetype: <code>mvn archetype:create-from-project</code>
-- Go to <code>target/generated-sources/archetype</code> and run <code>mvn install</code>
-- Create a fresh project from Archetype <code> mvn archetype:generate -DarchetypeCatalog=local </code> using <code>com.pampanet:shiro-guice-resteasy-webapp</code>
-- You can select the archetype from Eclipse IDE from the "New Maven Project" Wizard
+Building and Running
+---------------------
+```bash
+#!/bin/bash
+### Install the Archetype in your local Maven Repo 
+mvn install
+### Create a New Maven Project from command line:
+mvn archetype:generate -DarchetypeGroupId=com.pampanet \ 
+  -DarchetypeArtifactId=shiro-guice-resteasy-webapp-archetype \ 
+  -DarchetypeVersion=0.1.0-RELEASE \ 
+  -DgroupId=<my.company.name> \ 
+  -DartifactId=<sample> \ 
+  -DarchetypeRepository=local \ 
+  -DinteractiveMode=false
+```
 
 Apache Shiro Filters
 --------------------
