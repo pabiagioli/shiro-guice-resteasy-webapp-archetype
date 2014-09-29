@@ -4,7 +4,7 @@
 
   <groupId>com.pampanet</groupId>
   <artifactId>shiro-guice-resteasy-webapp-archetype</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>shiro-guice-resteasy-webapp-archetype</name>
@@ -128,7 +128,7 @@
   <scm>
     <connection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</connection>
     <developerConnection>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</developerConnection>
-    <tag>shiro-guice-resteasy-webapp-archetype-0.0.2</tag>
+    <tag>shiro-guice-resteasy-webapp-archetype-0.0.1</tag>
     <url>scm:git:git@github.com:pabiagioli/shiro-guice-resteasy-webapp-archetype.git</url>
   </scm>
 </project>
